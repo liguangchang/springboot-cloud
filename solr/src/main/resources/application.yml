@@ -1,0 +1,5 @@
+# 配置solr服务器的链接地址
+spring:
+  data:
+    solr:
+      host: http://10.211.55.3:8080/solr/home1
