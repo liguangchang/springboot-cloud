@@ -2,4 +2,4 @@
 spring:
   data:
     solr:
-      host: http://10.211.55.3:8080/solr/home1
+      host: http://10.211.55.4:8983/solr/home1/
