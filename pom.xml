@@ -4,7 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-
+     <module>aop</module>
+     <module>solr</module>
     </modules>
 
     <parent>
@@ -43,6 +44,18 @@
                 <artifactId>spirng-aop</artifactId>
                 <version>${spring-aop-version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-boot-start-version}</version>
+            </dependency>
+
+
 
         </dependencies>
     </dependencyManagement>
@@ -54,6 +67,9 @@
         <cglib-version>2.1</cglib-version>
         <lombok-version>1.18.8</lombok-version>
         <spring-aop-version>5.1.5.RELEASE</spring-aop-version>
+        <druid-version>1.1.10</druid-version>
+        <mybatis-boot-start-version>1.3.2</mybatis-boot-start-version>
+
 
     </properties>
 
